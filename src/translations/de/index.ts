@@ -1,9 +1,9 @@
-import mainPage from "./main-page.json";
+import mainPage from './main-page.json'
 
 const de = {
   translation: {
-    mainPage,
-  },
-};
+    mainPage
+  }
+}
 
-export default de;
+export default de
