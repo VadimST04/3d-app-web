@@ -1,4 +1,8 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "sonarlint.connectedMode.project": {
+    "connectionId": "3d-diploma-project-sonar",
+    "projectKey": "3d-diploma-project_tetrahedron-desktop"
+  }
 }
