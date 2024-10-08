@@ -2,7 +2,11 @@ import { Canvas } from '@react-three/fiber'
 import StandartCube from './StandartCube'
 
 const Experience = () => {
-  const unusedVariable = 0
+  const unusedVariable1 = 0
+  const unusedVariable2 = 0
+  const unusedVariable3 = 0
+  const unusedVariable4 = 0
+  const unusedVariable5 = 0
   return (
     <Canvas
       camera={{
