@@ -50,7 +50,7 @@ const DragAndDrop = ({ onFilesLoad, accept, className = '' }: DragAndDropProps) 
   }
 
   return (
-    <div
+    <form
       onDragOver={onDragOverHandler}
       onDragStart={onDragOverHandler}
       onDragLeave={onDragLeaveHandler}
@@ -66,7 +66,7 @@ const DragAndDrop = ({ onFilesLoad, accept, className = '' }: DragAndDropProps) 
         {t('dragAndDrop.browseButtonTitle')}
       </AppButton>
       <p className="text-xl">{t('dragAndDrop.orDragFileHere')}</p>
-    </div>
+    </form>
   )
 }
 
